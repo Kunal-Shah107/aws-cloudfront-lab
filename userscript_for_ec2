@@ -76,6 +76,6 @@ EOL
 echo -e "\e[1;32mScript execution completed successfully!\e[0m"
 
 # Create a simple HTML page (index2.html) with a light green background and dark text
-echo "<h1>Hello, This is index2.html page used hosted on $(hostname -f)</h1>" > /var/www/html/index2.html
+echo "<h1>Hello, This is index2.html page hosted on $(hostname -f)</h1>" > /var/www/html/index2.html
 
 
