@@ -73,6 +73,8 @@ cat > /var/www/html/index.html <<EOL
 </html>
 EOL
 
+echo -e "\e[1;32mScript execution completed successfully!\e[0m"
+
 # Create a simple HTML page (index2.html) with a light green background and dark text
 echo -e "\e[1;35mCreating a simple second page (index2.html)...\e[0m"
 
