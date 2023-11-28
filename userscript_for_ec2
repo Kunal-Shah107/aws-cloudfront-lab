@@ -18,7 +18,7 @@ systemctl enable httpd
 # Create a detailed and appealing HTML page with skyblue background and black text
 echo -e "\e[1;35mCreating a stylish Hello World page...\e[0m"
 
-cat > /var/www/html/index2.html <<EOL
+cat > /var/www/html/index.html <<EOL
 <!DOCTYPE html>
 <html lang="en">
 <head>
